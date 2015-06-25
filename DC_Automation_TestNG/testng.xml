@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DC">
+	<test name="Login">
+	<parameter name="DRIVER_NAME" value="Android"/>
+	<parameter name="ENVIRONMENT" value="test_environment"/>
+	<parameter name="USERNAME" value="value_of_username"/>
+	<parameter name="PASSWORD" value="value_of_password"/>
+		<classes>
+			<class name="com.sample.mobile.testcases.LoginTest" />
+		</classes>
+	</test>
+</suite>
